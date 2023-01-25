@@ -30,7 +30,7 @@ namespace PROYECTOEF;
 
         List<Tarea> TareasInit = new List<Tarea>();
         TareasInit.Add(new Tarea() { TareaId = Guid.Parse("3fe148ff-c319-4f50-bb97-ac9a5943bb10"), CategoriaId = Guid.Parse("3fe148ff-c319-4f50-bb97-ac9a5943bbd2"), PrioridadTarea = Prioridad.Media, Titulo = "Pago de servicios publicos", FechaCreacion = DateTime.Now });
-        TareasInit.Add(new Tarea() { TareaId = Guid.Parse("3fe148ff-c319-4f50-bb97-ac9a5943bb10"), CategoriaId = Guid.Parse("3fe148ff-c319-4f50-bb97-ac9a5943bb02"), PrioridadTarea = Prioridad.Baja, Titulo = "Terminar de ver película en Netflix", FechaCreacion = DateTime.Now });
+        TareasInit.Add(new Tarea() { TareaId = Guid.Parse("3fe148ff-c319-4f50-bb97-ac9a5943bb11"), CategoriaId = Guid.Parse("3fe148ff-c319-4f50-bb97-ac9a5943bb02"), PrioridadTarea = Prioridad.Baja, Titulo = "Terminar de ver película en Netflix", FechaCreacion = DateTime.Now });
 
 
         modelBuilder.Entity<Tarea>(tarea =>
